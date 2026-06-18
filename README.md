@@ -5,7 +5,6 @@ Native jni/c++ ioctl libs including **FOD, SOFOD, AOD, DT2W**, and full xiaomi t
 Targets **VNDK34+ / newer AIDL devices**. Works on HyperOS vendor or an AOSP vendor with `mfp-daemon` ported from a HyperOS vendor/ODM.
 
 READ UNTIL THE END.
-DO NOT MAKE THIS AS ZIP THEN SHARING ANYWHERE WITHOUT PROPER GIT SOURCE!
 
 Author: **[@hoshikv](https://t.me/hoshikv)** ·
 Tg Channel: [@kvports](https://t.me/kvports)
