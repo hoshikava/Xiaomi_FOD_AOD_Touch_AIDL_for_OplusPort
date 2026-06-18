@@ -10,8 +10,8 @@ Author: **[@hoshikv](https://t.me/hoshikv)** · Telegram Channel: [@kvports](htt
 
 ## Features
 
-- **FOD** — Fingerprint including fingerprint animation
-- **SOFOD** — working sofod on doze_suspend/doze_brightness
+- **FOD** — fingerprint including fingerprint animation
+- **SOFOD** — working screen off fod on doze_suspend/doze_brightness
 - **AOD** — always on display/doze brightness without delay
 - **DT2W** — connected xiaomi-dt2w to oplus dt2w settings
 - **Touch suite** — game, active, aim, expert, edge filter, tap, tolerance — via `persist.sys.kv*` props (`0` = off, `1` = on)
