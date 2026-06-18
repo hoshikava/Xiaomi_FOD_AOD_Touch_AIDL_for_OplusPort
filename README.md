@@ -28,7 +28,6 @@ Tg Channel: [@kvports](https://t.me/kvports)
 | File | Purpose |
 |---|---|
 | `libhoshikv.so` | Prebuilt native library |
-| `libhoshikv-sfd.cpp` | Native source |
 | `classes*.dex` | `hoshi.kvfod` bridge class |
 | `PATCH.smali` | Smali patch for SystemUI |
 | `vendor_sepolicy.cil` | SELinux rules |
