@@ -101,6 +101,9 @@ Add at the end of `/vendor/sepolicy.cil`:
 (typeattributeset mlstrustedobject (touchfeature_device))
 (allow platform_app touchfeature_device (chr_file (read write open ioctl getattr map)))
 (allowx platform_app touchfeature_device (ioctl chr_file (range 0x0000 0xffff)))
+(typeattributeset mlstrustedobject (vendor_displayfeature_device))
+(allow platform_app vendor_displayfeature_device (chr_file (read write open ioctl getattr map)))
+(allowx platform_app vendor_displayfeature_device (ioctl chr_file (range 0x0000 0xffff)))
 ```
 
 On enforcing, if you don't add this manually, `libhoshikv.so` will get denied — even an automated sepolicy-merge script won't add it for you.
