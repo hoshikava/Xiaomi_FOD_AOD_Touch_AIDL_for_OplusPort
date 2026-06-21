@@ -30,7 +30,7 @@ you need chmod script that i provide there htsrchmod and htsrpermission.rc(optio
 
 | File | Purpose |
 |---|---|
-| `libhoshikv.so` | Prebuilt native library |
+| `libhoshikv.so` | Prebuilt native JNI/ioctl library |
 | `classes*.dex` | `hoshi.kvfod` bridge class |
 | `vendor_sepolicy.cil` | SELinux rules |
 | `htsrchmod` | script for chmod htsr node (optional) |
