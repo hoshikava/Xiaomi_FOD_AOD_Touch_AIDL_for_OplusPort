@@ -19,7 +19,7 @@ Tg Channel: [@kvports](https://t.me/kvports)
 - **DT2W** — connected xiaomi-dt2w to oplus dt2w settings
 - **Other Touch** — game, active, aim, expert, edge filter, tap, tolerance — via `persist.sys.kv*` props (`0` = off, `1` = on)
 - **HTSR** — forces 500Hz touch report rate `/sys/class/*/*/switch_report_rate`
-you need chmod script that i provide there htsrchmod and htsrpermission.rc
+you need chmod script that i provide there htsrchmod and htsrpermission.rc(optional)
 
 ## Requirements
 
@@ -33,8 +33,8 @@ you need chmod script that i provide there htsrchmod and htsrpermission.rc
 | `libhoshikv.so` | Prebuilt native library |
 | `classes*.dex` | `hoshi.kvfod` bridge class |
 | `vendor_sepolicy.cil` | SELinux rules |
-| `htsrchmod` | script for chmod htsr node |
-| `htsrpermission.rc` | rc for runs htsrchmod script 1 time |
+| `htsrchmod` | script for chmod htsr node (optional) |
+| `htsrpermission.rc` | rc for runs htsrchmod script 1 time (optional) |
 
 
 ## Installation
