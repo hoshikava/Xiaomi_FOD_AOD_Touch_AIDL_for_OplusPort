@@ -1,1 +1,15 @@
-
+#!/system/bin/sh
+# chmod 0666 switch_report_rate node(s) so SystemUI (uid system) can write them
+i=0
+while [ $i -lt 60 ]; do
+    found=0
+    for f in /sys/devices/*/*/switch_report_rate; do
+        if [ -e "$f" ]; then
+            chmod 0666 "$f"
+            found=1
+        fi
+    done
+    [ $found -eq 1 ] && break
+    sleep 1
+    i=$((i+1))
+done
